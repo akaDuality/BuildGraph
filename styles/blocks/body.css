@@ -1,0 +1,32 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  width: 100%;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.AppStoreButton {
+  margin: 20px;
+}
+
+.subtitle {
+  font-size: 36px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.headerImage {
+  width: 140%;
+  margin-left: -20%;
+}
