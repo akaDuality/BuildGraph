@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+}
+
+.headerImage {
+  width: 120%;
+   margin-left: -10%; 
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.AppStoreButton {
+  margin: 20px;
+}

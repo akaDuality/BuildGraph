@@ -13,29 +13,6 @@ p {
   margin: 20px 0px;
 }
 
-.header {
-  text-align: center;
-}
-
-.headerImage {
-  width: 100%;
-  /* margin-left: -20%; */
-}
-
-h1 {
-  font-size: 72px;
-}
-
-.subtitle {
-  font-size: 36px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
-.AppStoreButton {
-  margin: 20px;
-}
-
 .featureImage {
   width: 100%;
   border-radius: 10px;
