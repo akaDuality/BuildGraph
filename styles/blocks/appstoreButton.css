@@ -1,0 +1,19 @@
+.appStoreButton {
+  display: inline-block;
+  overflow: hidden;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  width: 250px;
+  height: 83px;
+}
+
+.appStoreButton > picture > img {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  width: 250px;
+  height: 83px;
+}

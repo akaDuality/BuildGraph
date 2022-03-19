@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Build Graph for Xcode</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section class="header">
-      <img src="images/logo.png" width="200px" />
-      <h1>
-        Build Graph
-      </h1>
-      <p class="subtitle">for Xcode</p>
-      <a
-        class="AppStoreButton"
-        href="https://apps.apple.com/us/app/build-graph-for-xcode/id1592897820?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200"
-        style="
-          display: inline-block;
-          overflow: hidden;
-          border-top-left-radius: 13px;
-          border-top-right-radius: 13px;
-          border-bottom-right-radius: 13px;
-          border-bottom-left-radius: 13px;
-          width: 250px;
-          height: 83px;
-        "
-        ><img
-          src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1646611200&h=293b9c48a192c1812925cf1899d9a78a"
-          alt="Download on the Mac App Store"
-          style="
-            border-top-left-radius: 13px;
-            border-top-right-radius: 13px;
-            border-bottom-right-radius: 13px;
-            border-bottom-left-radius: 13px;
-            width: 250px;
-            height: 83px;
-          "
-      /></a>
-      <div>
-        <picture>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Build Graph for Xcode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="header">
+    <img src="images/logo.png" width="200px" />
+    <h1>
+      Build Graph
+    </h1>
+    <p class="subtitle">for Xcode</p>
+    
+    <a
+    class="appStoreButton"
+    href="https://apps.apple.com/us/app/build-graph-for-xcode/id1592897820?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200"
+    >
+
+    <picture>
           <source
-            srcset="images/HeaderDark.png"
-            media="(prefers-color-scheme: dark)"
+          srcset="images/MacStoreLight.svg"
+          media="(prefers-color-scheme: dark)"
           />
           <img
-            class="headerImage"
-            src="images/HeaderLight.png"
-            alt="App sample that presents Build graph of the Dodo Pizza's app"
+    src="images/MacStoreDark.svg"
+    alt="Download on the Mac App Store"
+    />
+        </picture>
+
+    </a>
+
+
+
+    <p><i>Essential tool to analyze compilation time of multi-modules app</i></p>
+
+    <div>
+      <picture>
+        <source
+        srcset="images/HeaderDark.png"
+        media="(prefers-color-scheme: dark)"
+        />
+        <img
+        class="headerImage"
+        src="images/HeaderLight.png"
+        alt="App sample that presents Build graph of the Dodo Pizza's app"
+        />
+      </picture>
+    </div>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <article>
+        <h3>Timings</h3>
+        <p>
+          Find out long tasks and strange places: thin waterfall of tasks, blocking
+          tasks, long assets compilation and other types of problems
+        </p>
+        <picture>
+          <source
+          srcset="images/features/VisualiseDark.png"
+          media="(prefers-color-scheme: dark)"
+          />
+          <img
+          class="featureImage"
+          src="images/features/VisualiseLight.png"
+          alt="The app presents build graph in gant-style"
           />
         </picture>
-      </div>
-      <p>Essential tool to optimize compilation time of multy-module’s app</p>
-    </section>
-
-    <section class="advantages">
-      <article>
-        <h3>Understand timing</h3>
-        <p>
-          Find out long tasks and strange places; thin rope of tasks, blocking
-          tasks and other types of problems
-        </p>
       </article>
 
       <article>
@@ -70,84 +80,124 @@
           When you have detected strange modules check links to another module
           to understand the behaviour of compilator
         </p>
+        <picture>
+          <source
+          srcset="images/features/LinksDark.png"
+          media="(prefers-color-scheme: dark)"
+          />
+          <img 
+          class="featureImage"
+          src="images/features/LinksLight.png"
+          alt="Modules linked and you can traverse dependencies"
+          />
+        </picture>
       </article>
 
       <article>
-        <h3>Filter tasks</h3>
+        <h3>Filters</h3>
         <p>
-          Choose neccessary type of tasks to analyze specified behaviour
+          Choose necessary type of tasks to analyze specified behaviour
         </p>
+        <picture>
+          <source
+          srcset="images/features/MetricsDark.png"
+          media="(prefers-color-scheme: dark)"
+          />
+          <img 
+          class="featureImage"
+          src="images/features/MetricsLight.png"
+          alt="Every type of operations can be filtered and acounted"
+          />
+        </picture>
+      </article>
+
+      <article>
+        <h3>Details</h3>
+        <p>
+          Check details of every module: what kind of task is performed, how
+          long does it take
+        </p>
+        <picture>
+          <source
+          srcset="images/features/DetailsDark.png"
+          media="(prefers-color-scheme: dark)"
+          />
+          <img
+          class="featureImage"
+          src="images/features/DetailsLight.png"
+          alt="The app presents build graph in gant-style"
+          />
+        </picture>
       </article>
 
       <article>
         <h3>Easy setup</h3>
         <p>
-          Buy, download, lunch, give access to Derived Data, vualya!
-        </p>
-      </article>
-
-      <article>
-        <h3>Dive into</h3>
-        <p>
-          Check details of every module: what kind of task is performed, how
-          long does it take
+          Download, launch, give access to Derived Data. Vualya!
         </p>
       </article>
 
       <article>
         <h3>Dark mode</h3>
         <p>
-          Even on site: switch the setting and enjoy
+          Even on this site: switch the setting and enjoy
         </p>
       </article>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <h2>Articles about build speed up</h2>
-      <ul>
-        <li>
-          <a
-            href="https://betterprogramming.pub/improve-xcode-compile-and-run-time-8b8f812c17f8?gi=9baba950cfac"
-            >How To Boost Xcode’s Compile Time and Runtime</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.onswiftwings.com/posts/build-time-optimization-part1/"
-            >Xcode Build Time Optimization - Part 1</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.onswiftwings.com/posts/build-time-optimization-part2/"
-            >Xcode Build Time Optimization - Part 2</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://ricardo-castellanos-herreros.medium.com/speeding-up-xcode-builds-97173cb1adba"
-            >Speeding Up Xcode Builds</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.avanderlee.com/optimization/analysing-build-performance-xcode/"
-            >Build performance analysis for speeding up Xcode builds</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://flexiple.com/ios/xcode-build-optimization-a-definitive-guide/"
-            >Xcode Build Optimization: A Definitive Guide</a
-          >
-        </li>
-      </ul>
-    </section>
-  </body>
-  <footer>
-    <p>
-      Developed by <a href="mailto:akaDuality@yandex.ru">Mikhail Rubanov</a>
-    </p>
-  </footer>
+  <section class="articles">
+    <h2>Articles about fast build</h2>
+    <p>The core of fast compilation time is deviding an app to independent modules. But you can learn a lot from other technices in this articles:</p>
+    <ul>
+      <li>
+        <a
+        href="https://betterprogramming.pub/improve-xcode-compile-and-run-time-8b8f812c17f8?gi=9baba950cfac"
+        >How To Boost Xcode’s Compile Time and Runtime</a
+        >
+      </li>
+      <li>
+        <a
+        href="https://www.onswiftwings.com/posts/build-time-optimization-part1/"
+        >Xcode Build Time Optimization - Part 1</a
+        >
+      </li>
+      <li>
+        <a
+        href="https://www.onswiftwings.com/posts/build-time-optimization-part2/"
+        >Xcode Build Time Optimization - Part 2</a
+        >
+      </li>
+      <li>
+        <a
+        href="https://ricardo-castellanos-herreros.medium.com/speeding-up-xcode-builds-97173cb1adba"
+        >Speeding Up Xcode Builds</a
+        >
+      </li>
+      <li>
+        <a
+        href="https://www.avanderlee.com/optimization/analysing-build-performance-xcode/"
+        >Build performance analysis for speeding up Xcode builds</a
+        >
+      </li>
+      <li>
+        <a
+        href="https://flexiple.com/ios/xcode-build-optimization-a-definitive-guide/"
+        >Xcode Build Optimization: A Definitive Guide</a
+        >
+      </li>
+    </ul>
+  </section>
+
+</body>
+<footer>
+  <p>
+    Developed by Mikhail Rubanov
+  </p>
+  <ul>
+    <li><a href="https://twitter.com/akaDuality">Twitter</a></li>
+    <li><a href="mailto:akaDuality@yandex.ru">Mail</a></li>
+  </ul>
+</footer>
 </html>
 

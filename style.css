@@ -2,4 +2,6 @@
 @import "styles/blocks/body.css";
 @import "styles/blocks/font.css";
 @import "styles/blocks/dark.css";
-
+@import "styles/blocks/desktop.css";
+@import "styles/blocks/footer.css";
+@import "styles/blocks/appstoreButton.css";
