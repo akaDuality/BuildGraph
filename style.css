@@ -1,3 +1,5 @@
+@import "styles/reset.css";
 @import "styles/blocks/body.css";
 @import "styles/blocks/font.css";
-@import "styles/reset.css";
+@import "styles/blocks/dark.css";
+
