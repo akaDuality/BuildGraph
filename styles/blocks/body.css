@@ -27,10 +27,6 @@ h2 {
 }
 
 h3 {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 10px;
-}
-
-.articles > ul {
-  line-height: 150%;
 }
