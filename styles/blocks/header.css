@@ -17,6 +17,7 @@ h1 {
 .appNameSubtitle {
   display: block;
   font-size: 50%;
+  line-height: 200%;
   font-weight: normal;
 }
 
